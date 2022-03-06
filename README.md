@@ -54,3 +54,9 @@ To run the C# sample:
 cd cs
 dotnet run
 ```
+
+To create your own .NET console project once you have the SDK installed:
+
+```
+dotnet new console
+```

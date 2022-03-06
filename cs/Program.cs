@@ -28,6 +28,7 @@ record Person (
   }
 }
 
+
 class App {
   public async Task Run() {
     var amy = new Person("Amy", 20);

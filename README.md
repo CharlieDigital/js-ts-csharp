@@ -23,6 +23,8 @@ If you'd like to learn more about C#'s functional features, check out:
 
 ## Running the JavaScript Sample
 
+Install Node: https://nodejs.org/en/download/
+
 To run the JavaScript sample:
 
 ```
@@ -31,6 +33,8 @@ node sample.js
 ```
 
 ## Running the TypeScript Sample
+
+Install TypeScript: https://www.typescriptlang.org/download
 
 To run the TypeScript sample:
 
@@ -41,6 +45,8 @@ node sample.js
 ```
 
 ## Running the C# Sample
+
+Install the .NET SDK: https://dotnet.microsoft.com/en-us/download
 
 To run the C# sample:
 

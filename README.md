@@ -1,10 +1,12 @@
 # Building up from JavaScript to TypeScript to C# 10 and .NET 6
 
-![JS vs TS vs CS](./js-ts-csharp.png)
-
 This repository is meant to highlight some of the various functional techniques available in C#.
 
-These techniques ultimately mean that there is quite a bit of syntactic congruence with JavaScript and TypeScript; in fact, I first noticed that C# and JavaScript starting to converge around the release of .NET 3.0.
+Read more here: https://chrlschn.medium.com/building-up-from-javascript-to-typescript-to-c-10-and-net-6-669a70cd0a66
+
+![JS vs TS vs CS](./js-ts-csharp.png)
+
+These functional elements of C# ultimately mean that there is quite a bit of syntactic congruence with JavaScript and TypeScript; in fact, I first noticed that C# and JavaScript starting to converge around the release of .NET 3.0.
 
 For many developers that are ready to extend from JavaScript and TypeScript on the backend to a more secure, performant, and robust backend runtime, C# on .NET is a natural extension as it has a clear lineage with JavaScript and TypeScript while providing many benefits including easy mutli-threading, language integrated query (LINQ), and many other features.
 

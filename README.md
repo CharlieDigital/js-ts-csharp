@@ -21,6 +21,12 @@ If you'd like to learn more about C#'s functional features, check out:
 - [Object Initializers](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/how-to-initialize-objects-by-using-an-object-initializer)
 - [Array Initializers](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/single-dimensional-arrays)
 
+## If You'd Like to Contribute...
+
+Make a fork and send a PR!  I'd love to see folks add more examples.
+
+(It may make sense to have sub-folders under `ts`, `js`, and `csharp`)
+
 ## Running the JavaScript Sample
 
 Install Node: https://nodejs.org/en/download/

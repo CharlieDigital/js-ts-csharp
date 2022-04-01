@@ -1,4 +1,16 @@
-﻿// Alias to simplify usage.
+﻿/**
+* The battleships problem requires counting the number of battleships
+* on a board. See boards at the end for examples.
+*
+* - The smallest battleship has size 1.
+* - Battleships can only be horizontal or vertical
+* - Battleships do not touch
+*
+* This solution demonstrates an approach to solving it using a recursive
+* local function.
+*/
+
+// Alias to simplify usage.
 var log = (object message) => Console.WriteLine(message);
 
 var TestCountShips = int (int[,] board) => {

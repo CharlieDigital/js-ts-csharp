@@ -48,10 +48,17 @@ node sample.js
 
 Install the .NET SDK: https://dotnet.microsoft.com/en-us/download
 
-To run the C# sample:
+To run the base C# sample:
 
 ```
 cd cs
+dotnet run
+```
+
+You can also try out the Battleships C# sample which is even more functional and demonstrates recursion with C# local functions:
+
+```
+cd cs-battleships
 dotnet run
 ```
 

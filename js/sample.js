@@ -15,7 +15,7 @@ class Person {
       var msg = `Happy ${this.age}th b-day!`;
       return Promise.resolve(msg);
     }
-    catch (ex) { throw ex; }      
+    catch (ex) { throw ex; }
     finally { }
   }
 
@@ -31,12 +31,12 @@ class Person {
 
 class App {
   async run() {
-    var amy = new Person("Amy", 20);    
+    var amy = new Person("Amy", 20);
     // * Async/Await
-    var message = await amy.notify();    
+    var message = await amy.notify();
     console.log(`${message}: ${amy.name}`);
     // * Destructuring
-    var { name, age } = amy;    
+    var { name, age } = amy;
     // * Array initialization
     var friends = ["Anish", "Landry"];
     amy.invite(
@@ -56,7 +56,7 @@ class App {
     var trace = () => console.log("Done");
     trace();
 
-    var thomas = new Person("Thomas", 36);    
+    var thomas = new Person("Thomas", 36);
 
     var outer = () => {
       var { name, age } = thomas;
@@ -72,7 +72,7 @@ class App {
 
       var local = (msg) =>
         console.log(msg);
-      
+
       local("Local!");
     }
 

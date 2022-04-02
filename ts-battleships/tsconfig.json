@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {  
+    "target": "esnext",
+    "lib": [
+      "DOM",
+      "ES2015"  
+    ],                                       
+    /* Modules */
+    "module": "es2022",                               
+    "esModuleInterop": true,                            
+    "forceConsistentCasingInFileNames": true,           
+    "strict": true,                                     
+    "skipLibCheck": true                                
+  }
+}

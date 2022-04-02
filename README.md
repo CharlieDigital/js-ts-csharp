@@ -38,6 +38,13 @@ cd js
 node sample.js
 ```
 
+To try the battleships sample:
+
+```
+cd js-battleships
+node battleships.js
+```
+
 ## Running the TypeScript Sample
 
 Install TypeScript: https://www.typescriptlang.org/download
@@ -48,6 +55,14 @@ To run the TypeScript sample:
 cd ts
 tsc
 node sample.js
+```
+
+To try the battleships sample:
+
+```
+cd ts-battleships
+tsc
+node battleships.js
 ```
 
 ## Running the C# Sample

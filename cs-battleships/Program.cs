@@ -19,9 +19,6 @@ var TestCountShips = int (int[,] board) => {
 
   log($"Board is {width} by {height}");
 
-  // Func<int, int, int, int> is the equivalent of
-  // (x:int, y:int, total:int) => int in TypeScript
-  // Need this declaration for the recursive call.
   Func<int, int, int, int> CountShips = null;
 
   // Local function within lambda function we use for recursion

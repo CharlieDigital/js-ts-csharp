@@ -18,6 +18,9 @@ const testCountShips = (board: number[][]) => {
 
   log(`Board is ${width} by ${height}`);
 
+  // Just an extra line so things line up :)
+
+  // Inner function closure
   const countShips = (x: number, y: number, total: number): number => {
     if (x > width - 1 && y < height) {
       x = 0;

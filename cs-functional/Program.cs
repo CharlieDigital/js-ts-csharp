@@ -92,6 +92,7 @@ var runCalcsAsDictionary = (int[] values) => {
 var result = runCalcsAsDictionary(new [] {2, 3, 4, 5});
 
 log(System.Text.Json.JsonSerializer.Serialize(result));
+// {"multiply":"120","add":"14","subtract":"-14","divide":"0"}
 
 header("Return the results as a tuple:");
 var runCalcsAsTuple = (int[] values) => {
@@ -103,7 +104,12 @@ var runCalcsAsTuple = (int[] values) => {
   );
 };
 
-var (multiplyResult, addResult, subtractResult, dividResult) = runCalcsAsTuple(new [] {2, 3, 4, 5});
+var (
+  multiplyResult,
+  addResult,
+  subtractResult,
+  dividResult
+) = runCalcsAsTuple(new [] {2, 3, 4, 5});
 
 log(multiplyResult);
 log(addResult);
@@ -167,7 +173,8 @@ header("Select by the type of input");
 int calcByType<T>(T[] values) {
   return values[0] switch {
     int first => values.Aggregate(0, (a, b) => a + Convert.ToInt32(b)),
-    string first when Int32.TryParse(first, out var val) => values.Aggregate(0, (a, b) => a + Convert.ToInt32(b)),
+    string first when Int32.TryParse(first, out var val) =>
+      values.Aggregate(0, (a, b) => a + Convert.ToInt32(b)),
     _ => values.Aggregate(0, (a, b) => a + Convert.ToInt32(b))
   };
 };
@@ -181,7 +188,8 @@ Func<object, int> intify = (object o) => Convert.ToInt32(o);
 int calcByTypeIntify<T>(T[] values) {
   return values[0] switch {
     int first => values.Aggregate(0, (a, b) => a + intify(b)),
-    string first when Int32.TryParse(first, out var val) => values.Aggregate(0, (a, b) => a + intify(b)),
+    string first when Int32.TryParse(first, out var val) =>
+      values.Aggregate(0, (a, b) => a + intify(b)),
     _ => values.Aggregate(0, (a, b) => a + intify(b))
   };
 };

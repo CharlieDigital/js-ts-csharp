@@ -56,7 +56,7 @@ class App {
     void trace() => Console.WriteLine("Done");
     trace();
 
-    var thomas = new Person("Thomas", 36);    
+    var thomas = new Person("Thomas", 36);
 
     var outer = () => {
       var ( name, age, _ ) = thomas;
@@ -79,4 +79,3 @@ class App {
     outer();
   }
 }
-

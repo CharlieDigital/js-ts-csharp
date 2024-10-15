@@ -19,7 +19,7 @@ var TestCountShips = int (int[,] board) => {
 
   log($"Board is {width} by {height}");
 
-  Func<int, int, int, int> CountShips = null;
+  Func<int, int, int, int>? CountShips = null;
 
   // Local function within lambda function we use for recursion
   CountShips = (int x, int y, int total) => {
@@ -54,7 +54,7 @@ var TestCountShips = int (int[,] board) => {
     }
 
     // We found a zero; keep going across.
-    return CountShips(x + 1, y, total);
+    return CountShips!(x + 1, y, total);
   };
 
   return CountShips(0, 0, 0);

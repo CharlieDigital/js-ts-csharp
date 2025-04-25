@@ -1,5 +1,7 @@
 # Building up from JavaScript to TypeScript to C# 10 and .NET 6
 
+> 👋 Hey there, if you're interested in learning C# and you already know TypeScript or vice versa, check out [TypeScript is Like C#](https://typescript-is-like-csharp.chrlschn.dev/).  It's an extension of this that goes deeper into the similarities between TypeScript and C#!
+
 This repository is meant to highlight some of the various functional techniques available in C#.
 
 Read more here: https://chrlschn.medium.com/building-up-from-javascript-to-typescript-to-c-10-and-net-6-669a70cd0a66
